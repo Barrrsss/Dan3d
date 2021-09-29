@@ -1,24 +1,20 @@
 @font-face {
-  font-family: 'Tahoma';
-  src: url('Tahoma-Bold.eot');
-  src: local('Tahoma Bold'), local('Tahoma-Bold'),
-  url('Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
-  url('Tahoma-Bold.woff2') format('woff2'),
-  url('Tahoma-Bold.woff') format('woff'),
-  url('Tahoma-Bold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), local('Roboto-Bold'),
+  url('Roboto-Bold.woff2') format('woff2'),
+  url('Roboto-Bold.woff') format('woff'),
+  url('Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Tahoma';
-  src: url('Tahoma.eot');
-  src: local('Tahoma'),
-  url('Tahoma.eot?#iefix') format('embedded-opentype'),
-  url('Tahoma.woff2') format('woff2'),
-  url('Tahoma.woff') format('woff'),
-  url('Tahoma.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Roboto';
+  src: local('Roboto Regular'), local('Roboto-Regular'),
+  url('Roboto-Regular.woff2') format('woff2'),
+  url('Roboto-Regular.woff') format('woff'),
+  url('Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }
 
