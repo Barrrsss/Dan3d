@@ -1,0 +1,11 @@
+@import "mixin";
+@import "color";
+@import "const";
+
+.header {
+  width: 1620px;
+  &__title {
+    @include f40;
+    color: $graywhite;
+  }
+}
