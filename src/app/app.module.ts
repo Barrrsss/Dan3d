@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import {RouterModule} from "@angular/router";
 import {AppRoutingModule} from './app-routing-module/app-routing-module.module';
 import { MainComponent } from './main/main.component';
+import {CarouselModule} from "ngx-carousel-lib";
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MainComponent } from './main/main.component';
     imports: [
         BrowserModule,
         RouterModule,
-        AppRoutingModule
+        AppRoutingModule,
+        CarouselModule
     ],
   providers: [],
   bootstrap: [AppComponent]

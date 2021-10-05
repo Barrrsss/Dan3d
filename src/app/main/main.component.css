@@ -1,3 +1,12 @@
+.container {
+  width: 100px;
+  height: 100px; }
 
+.carousel__image {
+  width: 602px;
+  height: 402px;
+  background-image: url("/assets/cat.jpg");
+  background-position: center;
+  background-size: contain; }
 
 /*# sourceMappingURL=main.component.css.map */
