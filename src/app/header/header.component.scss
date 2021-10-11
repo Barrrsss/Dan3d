@@ -1,0 +1,19 @@
+@import "mixin";
+@import "color";
+@import "const";
+
+.header {
+  &__button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    @include pointer;
+    background: #111111;
+    &_cart {
+      background-image: url("../../assets/cart.svg");
+    }
+    &_lang {
+      background-image: url("../../assets/lang.svg");
+    }
+  }
+}
