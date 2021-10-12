@@ -3,6 +3,9 @@
 @import "const";
 
 .header {
+  width: 1620px;
+  height: 127px;
+  @include flexcenter;
   &__button {
     width: 25px;
     height: 25px;

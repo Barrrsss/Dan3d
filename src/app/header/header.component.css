@@ -7,7 +7,7 @@ Error: File to import not found or unreadable: mixin.
 3: @import "const";
 4: 
 5: .header {
-6:   &__button {
+6:   width: 1620px;
 
 Backtrace:
 header.component.scss:1
@@ -48,4 +48,4 @@ C:/Ruby27-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of header.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: \A 5: .header {\A 6:   &__button {"; }
+  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of header.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: \A 5: .header {\A 6:   width: 1620px;"; }
