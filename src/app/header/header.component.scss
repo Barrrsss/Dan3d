@@ -11,7 +11,7 @@
     height: 25px;
     border: none;
     @include pointer;
-    background: #111111;
+    background: $blackalmostвыа;
     &_cart {
       background-image: url("../../assets/cart.svg");
     }

@@ -1,3 +1,7 @@
+@import "mixin";
+@import "color";
+@import "const";
 .page {
   font-family: 'Roboto', Arial, sans-serif;
+  background: $blackalmost;
 }
