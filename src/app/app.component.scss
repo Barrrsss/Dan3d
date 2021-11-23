@@ -2,6 +2,8 @@
 @import "color";
 @import "const";
 .page {
+  width: 100%;
+  height: 100%;
   font-family: 'Roboto', Arial, sans-serif;
   background: $blackalmost;
 }
