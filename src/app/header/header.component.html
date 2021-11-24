@@ -1,14 +1,18 @@
 <header class="header">
   <h1 class="header__title">3D Models Store</h1>
-  <div>
+  <nav>
     <ul class="header__menu">
-      <li class="header__menu_item header__menu_item-active">Каталог</li>
-      <li class="header__menu_item">Сделать заказ</li>
-      <li class="header__menu_item">Контакты</li>
+      <li class="header__menu_item"
+          *ngFor="let items of dataService.items"
+          [ngClass]="{
+      'header__menu_item-active': items.active === true,
+      '': items.active === false
+      }"
+      >{{ items.name }}</li>
     </ul>
     <div class="header__buttons">
       <button class="header__button header__button_cart"></button>
       <button class="header__button header__button_lang"></button>
     </div>
-  </div>
+  </nav>
 </header>
