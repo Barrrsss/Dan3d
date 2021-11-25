@@ -6,7 +6,6 @@
   width: 1620px;
   height: 130px;
   margin-left: 150px;
-  border-bottom: $white $solid1;
   @include flexrowsbcenter;
   &__title {
     color: $graywhite;
@@ -14,16 +13,18 @@
   &__menu {
     color: $graywhite;
     list-style-type: none;
+
     @include flexcenter;
+
+    :hover {
+      border-bottom: $solid1 $gray;
+    }
     &_item {
       margin-right: 40px;
+      border-bottom: $solid1 transparent;
       @include pointer;
       &-active {
         border-bottom: $solid1 $orange;
-      }
-      :hover {
-        color: red;
-        border-bottom: $gray $solid1;
       }
     }
 
