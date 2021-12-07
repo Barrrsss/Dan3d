@@ -7,7 +7,7 @@ Error: File to import not found or unreadable: mixin.
 3: @import "const";
 4: .page {
 5:   width: 100%;
-6:   height: 100%;
+6:   display: flex;
 
 Backtrace:
 app.component.scss:1
@@ -48,4 +48,4 @@ C:/Ruby27-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of app.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: .page {\A 5:   width: 100%;\A 6:   height: 100%;"; }
+  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of app.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: .page {\A 5:   width: 100%;\A 6:   display: flex;"; }

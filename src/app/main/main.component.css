@@ -1,3 +1,5 @@
-
+.main {
+  flex-grow: 1;
+  background: red; }
 
 /*# sourceMappingURL=main.component.css.map */

@@ -6,8 +6,8 @@ Error: File to import not found or unreadable: mixin.
 2: @import "color";
 3: @import "const";
 4: 
-5: .header {
-6:   width: 1620px;
+5: .footer {
+6:   color: $white;
 
 Backtrace:
 footer.component.scss:1
@@ -48,4 +48,4 @@ C:/Ruby27-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of footer.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: \A 5: .header {\A 6:   width: 1620px;"; }
+  content: "Error: File to import not found or unreadable: mixin.\A         on line 1 of footer.component.scss\A \A 1: @import \"mixin\";\A 2: @import \"color\";\A 3: @import \"const\";\A 4: \A 5: .footer {\A 6:   color: $white;"; }
